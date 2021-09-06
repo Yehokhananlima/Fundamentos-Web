@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="Assets/css/style.css">
 </head>
 <body>
     
 
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html">Home</a>
         </li>
@@ -18,30 +19,70 @@
         </li>
     </ul>
 
-    <h1>Entre em contato comigo</h1>
+    <h1 class="center">Entre em contato comigo</h1>
 
-    <form 
-        <label for="Nome">Nome</label>
-        <input type="text" id="Nome">
-        <br>
-        <br>
-        <label for="E-mail">E-mail</label>
-        <input type="email" id="E-mail">
-        <br>
-        <br>
-        <label for="Assunto">Assunto</label> <br>
-        <textarea name="Assunto" id="Assunto" cols="60" rows="5"></textarea>
+    <div class="container mb-50">
+        <div>
+            <h2>Mande uma mensagem</h2>
+            <form>
+                <label for="Nome">Nome</label>
+                <input type="text" id="Nome">
+                <br>
+                <br>
+                <label for="E-mail">E-mail</label>
+                <input type="email" id="E-mail">
+                <br>
+                <br>
+                <label for="Assunto">Assunto</label> <br>
+                <textarea name="Assunto" id="Assunto" cols="60" rows="5"></textarea>
+        
+                <div class="center">
+                    <BUtton class="center">Enviar</BUtton>
+                </div>
+                
+        
+        
+            </form>
+        </div>
 
-        <BUtton>Enviar</BUtton>
+        <div class="ml-50">
+            <h2>Endereço</h2>
+            <p>Av. das Nações Unidas,14171</p>
+            <p>São paulo - SP</p>
+        
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14622.025146315198!2d-46.7011434!3d-23.6220331!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa621ccef8eabe7bf!2sRegus%20-%20Sao%20Paulo%20Rochavera%20-%20Morumbi!5e0!3m2!1spt-BR!2sbr!4v1629914179494!5m2!1spt-BR!2sbr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        
+        </div>
 
+    </div>
 
-    </form>
+    <hr>
+<footer>
 
-    <h2>Endereço:</h2>
-    <p>Av. das Nações Unidas,14171</p>
-    <p>São paulo - SP</p>
+    <div class= "container"> 
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14622.025146315198!2d-46.7011434!3d-23.6220331!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa621ccef8eabe7bf!2sRegus%20-%20Sao%20Paulo%20Rochavera%20-%20Morumbi!5e0!3m2!1spt-BR!2sbr!4v1629914179494!5m2!1spt-BR!2sbr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <a href="https://www.linkedin.com/in/yehokhanan-lima-29228b189" target="_blanck">
+            <img class="tm-social p-30" src="Assets/Img/imagens/linkedin 2.png" alt="logo do linkedin">
+        </a>
 
+        <a href="https://www.instagram.com/yoha_nann/" target="_blanck">
+            <img class="tm-social p-30" src= "Assets/Img/imagens/instagram.png" alt="logo do instagram">
+        </a>
+
+        <a href="https://github.com/Yehokhananlima" target="_blanck">
+            <img class="tm-social p-30" src="Assets/Img/imagens/github.png" alt="logo do github">
+        </a>
+       
+
+    </div>
+
+    <p class="center">
+    Direitos reservados - Yoha lima &copy
+    </p>
+</footer>
+
+    
+
+    
 </body>
 </html>
